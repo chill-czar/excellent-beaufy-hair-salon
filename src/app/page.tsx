@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HomePage() {
   return (
     <>
@@ -5,9 +7,10 @@ export default function HomePage() {
       <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden px-container-padding-mobile md:px-container-padding-desktop">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <img
+          <Image
             alt="Salon interior"
-            className="w-full h-full object-cover object-center opacity-80"
+            className="object-cover object-center opacity-80"
+            fill
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuBr5nlNnz3qeiwkHWCy2zgZBgzzy-MGTncwNq_CbfTn_-MTJd7145jKMaRbgzr411HbsTpM_BxSi_bhmjdtvwHUabHQ9dnbklwBQ5nvHnJHhhFfpuVRljU8TyYNx1acUE3ftTAa_hNALTCC1_TiQABGmelxwajTc9NNuqMp_4CUZwfshveRVB-NGe9Py6zNMPcY1tHhup6XD5b9j3xNJO60Jbp7Y9wLZeVmKrThLG3B2AMXZw_7VdlHdOq3ZvTtU7x5-t4gq6ZYU8FF"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-surface-bright/90 via-surface-bright/60 to-transparent"></div>
@@ -87,9 +90,10 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter">
             {/* Service Item 1 */}
             <div className="group relative overflow-hidden rounded-2xl md:col-span-8 min-h-80 shadow-[0_30px_30px_rgba(0,0,0,0.04)]">
-              <img
+              <Image
                 alt="Hair Salon"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+                fill
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBr5nlNnz3qeiwkHWCy2zgZBgzzy-MGTncwNq_CbfTn_-MTJd7145jKMaRbgzr411HbsTpM_BxSi_bhmjdtvwHUabHQ9dnbklwBQ5nvHnJHhhFfpuVRljU8TyYNx1acUE3ftTAa_hNALTCC1_TiQABGmelxwajTc9NNuqMp_4CUZwfshveRVB-NGe9Py6zNMPcY1tHhup6XD5b9j3xNJO60Jbp7Y9wLZeVmKrThLG3B2AMXZw_7VdlHdOq3ZvTtU7x5-t4gq6ZYU8FF"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-surface-tint/80 via-transparent to-transparent"></div>
@@ -108,9 +112,10 @@ export default function HomePage() {
             </div>
             {/* Service Item 2 */}
             <div className="group relative overflow-hidden rounded-2xl md:col-span-4 min-h-80 shadow-[0_30px_30px_rgba(0,0,0,0.04)] bg-surface-container">
-              <img
+              <Image
                 alt="Nail Salon"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90"
+                className="object-cover transition-transform duration-700 group-hover:scale-105 opacity-90"
+                fill
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdJOveLeaRPT8NtCnlFl2X6UOoS9Wvvhr80JFZQqDO2xiaegcPr1pjCizY57bGep-ZGC_K_-lbfG6xS609ukbX1opXZ41v5rQCzC0-WbenvgHFRWqCdt13lG8vWOZwvam7rkA3Hfu-tzcukTy53EgD9vhgSlSFk73wiGnsKPGoebE9CjF7c-NbApSYWBDRBsWhr-thiDcvoq3aKGcEJ0AjFPA8c1vtZB-rUpqe-eQIz5zIQ7K5NkHhiX9lkFKqW9chjUXcXIWQ7hjF"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-surface-tint/90 to-transparent"></div>
@@ -125,9 +130,10 @@ export default function HomePage() {
             </div>
             {/* Beauty Treatments Card */}
             <div className="md:col-span-4 row-span-1 relative rounded-xl overflow-hidden group shadow-[0_30px_30px_rgba(0,0,0,0.04)] bg-surface-container">
-              <img
+              <Image
                 alt="Beauty Treatments"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90"
+                className="object-cover transition-transform duration-700 group-hover:scale-105 opacity-90"
+                fill
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2gmJCN3EXDA0_1Wc-6Lj2gUtplk1MSJ1UL-bx4oZF9UZlD5XvFEMTZoBp8aKYXGavr4JYwWmyCTnUXx_VZkBp2aUEghBpTNcNmqYbtbTim_aA9NXJJpcQLZ5iJWPS2I295Nhny4AqYmbzrXhxjA30t1MLzMGwgWenXs4yZxj_XgyDsdwPpu_Cg24aybnO6ZEx7SdCOU3ddCAXDYhWAw6j7Z0-B4Atotyu58Ns025iHQGqvUqHt7LxeA5X_hds87i5PMH-WRkUkmAn"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-surface-tint/90 to-transparent"></div>

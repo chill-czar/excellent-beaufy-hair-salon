@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ServicesPage() {
   return (
     <>
@@ -17,9 +19,10 @@ export default function ServicesPage() {
           {/* Hair Category */}
           <div className="md:col-span-8 flex flex-col gap-6">
             <div className="relative h-96 rounded-2xl overflow-hidden group">
-              <img
+              <Image
                 alt="Professional hair stylist"
-                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+                fill
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBr5nlNnz3qeiwkHWCy2zgZBgzzy-MGTncwNq_CbfTn_-MTJd7145jKMaRbgzr411HbsTpM_BxSi_bhmjdtvwHUabHQ9dnbklwBQ5nvHnJHhhFfpuVRljU8TyYNx1acUE3ftTAa_hNALTCC1_TiQABGmelxwajTc9NNuqMp_4CUZwfshveRVB-NGe9Py6zNMPcY1tHhup6XD5b9j3xNJO60Jbp7Y9wLZeVmKrThLG3B2AMXZw_7VdlHdOq3ZvTtU7x5-t4gq6ZYU8FF"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-inverse-surface/20 to-transparent"></div>
@@ -74,9 +77,10 @@ export default function ServicesPage() {
                 </ul>
               </div>
               <div className="mt-8 rounded-xl overflow-hidden h-48 relative">
-                <img
+                <Image
                   alt="Elegant nail art"
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  fill
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdJOveLeaRPT8NtCnlFl2X6UOoS9Wvvhr80JFZQqDO2xiaegcPr1pjCizY57bGep-ZGC_K_-lbfG6xS609ukbX1opXZ41v5rQCzC0-WbenvgHFRWqCdt13lG8vWOZwvam7rkA3Hfu-tzcukTy53EgD9vhgSlSFk73wiGnsKPGoebE9CjF7c-NbApSYWBDRBsWhr-thiDcvoq3aKGcEJ0AjFPA8c1vtZB-rUpqe-eQIz5zIQ7K5NkHhiX9lkFKqW9chjUXcXIWQ7hjF"
                 />
               </div>
@@ -87,9 +91,10 @@ export default function ServicesPage() {
           <div className="md:col-span-12 mt-6">
             <div className="relative rounded-2xl overflow-hidden group bg-surface-container-low soft-shadow grid grid-cols-1 md:grid-cols-2">
               <div className="h-96 md:h-auto relative overflow-hidden">
-                <img
+                <Image
                   alt="Beauty treatment session"
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  fill
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2gmJCN3EXDA0_1Wc-6Lj2gUtplk1MSJ1UL-bx4oZF9UZlD5XvFEMTZoBp8aKYXGavr4JYwWmyCTnUXx_VZkBp2aUEghBpTNcNmqYbtbTim_aA9NXJJpcQLZ5iJWPS2I295Nhny4AqYmbzrXhxjA30t1MLzMGwgWenXs4yZxj_XgyDsdwPpu_Cg24aybnO6ZEx7SdCOU3ddCAXDYhWAw6j7Z0-B4Atotyu58Ns025iHQGqvUqHt7LxeA5X_hds87i5PMH-WRkUkmAn"
                 />
               </div>

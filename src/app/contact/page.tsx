@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 export default function ContactPage() {
   return (
     <>
       {/* Page Header */}
       <div className="mb-16 md:mb-24 text-center md:text-left max-w-2xl mx-auto px-container-padding-mobile md:px-container-padding-desktop pt-24 md:pt-32">
         <h1 className="font-headline-xl-mobile md:font-headline-xl text-headline-xl-mobile md:text-headline-xl text-primary mb-6">
-          Let's Connect
+          Let&apos;s Connect
         </h1>
         <p className="font-body-lg text-body-lg text-on-surface-variant">
           We invite you to reach out for appointments, inquiries, or personalized consultations. Experience the sophisticated care you deserve.
@@ -17,9 +19,10 @@ export default function ContactPage() {
           {/* Map & Address Card (Large Span) */}
           <div className="md:col-span-8 bg-surface-container-lowest/80 backdrop-blur-md rounded-xl p-8 shadow-[0_30px_30px_rgba(0,0,0,0.04)] border border-outline-variant/20 flex flex-col group transition-transform duration-500 hover:-translate-y-1">
             <div className="w-full h-64 md:h-80 rounded-lg overflow-hidden mb-8 bg-surface-container-high relative">
-              <img
+              <Image
                 alt="Map of Kissimmee, FL"
-                className="w-full h-full object-cover opacity-90 transition-opacity group-hover:opacity-100"
+                className="object-cover opacity-90 transition-opacity group-hover:opacity-100"
+                fill
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5xQoukXtduo3eZVSXIJN2mL1sNpdGYvytk9FffSmMLFoxVaeBXnVhhEA-ZqhvFXIeNtuOQnisqEhPjhSCgVosa3YdLoMtLEnXxxX4d-B1I6E5Rm89e9JCA7rGprMU4COepzknfTejdXrDdSmOs9X86PM21DGDa8koHrvOYxrjV0GgfhWkf5VPQOmMQ7G4Lya0MqlqTuxUA6z3OmVhNgtzxD36P-Km2jZ4DX5kPKRs2k0DHad_ZYyNCSVjrogR0IeCN0spkwH-uXgk"
               />
             </div>

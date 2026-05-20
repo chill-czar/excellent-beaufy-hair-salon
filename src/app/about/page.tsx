@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutPage() {
   return (
     <>
@@ -7,7 +9,7 @@ export default function AboutPage() {
           Our Story
         </h1>
         <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
-          A legacy of sophisticated radiance. Discover the passion, precision, and people behind Osceola's most refined salon experience.
+          A legacy of sophisticated radiance. Discover the passion, precision, and people behind Osceola&apos;s most refined salon experience.
         </p>
       </section>
 
@@ -33,7 +35,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="pt-4 border-t border-surface-variant">
-              <p className="font-headline-md text-headline-md italic text-primary">"Every detail matters when crafting your perfect aesthetic."</p>
+              <p className="font-headline-md text-headline-md italic text-primary">&quot;Every detail matters when crafting your perfect aesthetic.&quot;</p>
               <p className="font-label-sm text-label-sm text-on-surface-variant mt-2">— Ana Perez, Founder</p>
             </div>
           </div>
@@ -41,10 +43,12 @@ export default function AboutPage() {
           {/* Image Column */}
           <div className="md:col-span-7 order-1 md:order-2 mb-10 md:mb-0 relative group">
             <div className="absolute inset-0 bg-primary-container/20 rounded-xl transform translate-x-4 translate-y-4 -z-10 transition-transform group-hover:translate-x-6 group-hover:translate-y-6 duration-500"></div>
-            <img
+            <Image
               alt="Professional stylist at work"
               className="w-full h-auto object-cover rounded-xl shadow-[0_30px_30px_rgba(0,0,0,0.04)]"
+              height={800}
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuBr5nlNnz3qeiwkHWCy2zgZBgzzy-MGTncwNq_CbfTn_-MTJd7145jKMaRbgzr411HbsTpM_BxSi_bhmjdtvwHUabHQ9dnbklwBQ5nvHnJHhhFfpuVRljU8TyYNx1acUE3ftTAa_hNALTCC1_TiQABGmelxwajTc9NNuqMp_4CUZwfshveRVB-NGe9Py6zNMPcY1tHhup6XD5b9j3xNJO60Jbp7Y9wLZeVmKrThLG3B2AMXZw_7VdlHdOq3ZvTtU7x5-t4gq6ZYU8FF"
+              width={1200}
             />
           </div>
         </div>
@@ -53,7 +57,7 @@ export default function AboutPage() {
       {/* Value Proposition (Why Choose Us) - Bento Inspired Layout */}
       <section className="max-w-7xl mx-auto px-container-padding-mobile md:px-container-padding-desktop mt-section-gap pb-section-gap">
         <div className="text-center mb-16">
-          <h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">Osceola's Premier Destination</h2>
+          <h2 className="font-headline-lg text-headline-lg text-on-surface mb-4">Osceola&apos;s Premier Destination</h2>
           <p className="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">
             Clients choose us not just for a service, but for an unparalleled experience. Here is what defines the Excellent standard.
           </p>
