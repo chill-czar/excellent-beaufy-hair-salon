@@ -32,23 +32,18 @@ export default function ServicesPage() {
                 <ul className="space-y-4">
                   <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
                     <span className="font-headline-md text-headline-md text-on-surface">Hair Salon</span>
-                    <span className="font-label-md text-label-md text-on-surface-variant">From $45</span>
                   </li>
                   <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
                     <span className="font-headline-md text-headline-md text-on-surface">Haircuts</span>
-                    <span className="font-label-md text-label-md text-on-surface-variant">From $35</span>
                   </li>
                   <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
                     <span className="font-headline-md text-headline-md text-on-surface">Hair Treatment</span>
-                    <span className="font-label-md text-label-md text-on-surface-variant">From $80</span>
                   </li>
                   <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
                     <span className="font-headline-md text-headline-md text-on-surface">Hair Botox</span>
-                    <span className="font-label-md text-label-md text-on-surface-variant">From $120</span>
                   </li>
                   <li className="flex justify-between items-center">
                     <span className="font-headline-md text-headline-md text-on-surface">Hair Extension</span>
-                    <span className="font-label-md text-label-md text-on-surface-variant">Consultation</span>
                   </li>
                 </ul>
               </div>
@@ -64,15 +59,12 @@ export default function ServicesPage() {
                 <ul className="space-y-4">
                   <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
                     <span className="font-headline-md text-headline-md text-on-surface">Nail Salon</span>
-                    <span className="font-label-md text-label-md text-on-surface-variant">From $25</span>
                   </li>
                   <li className="flex justify-between items-center border-b border-outline-variant/30 pb-2">
                     <span className="font-headline-md text-headline-md text-on-surface">Pedicure and manicure</span>
-                    <span className="font-label-md text-label-md text-on-surface-variant">From $60</span>
                   </li>
                   <li className="flex justify-between items-center">
                     <span className="font-headline-md text-headline-md text-on-surface">Nail Extension</span>
-                    <span className="font-label-md text-label-md text-on-surface-variant">From $55</span>
                   </li>
                 </ul>
               </div>
@@ -104,11 +96,9 @@ export default function ServicesPage() {
                 <ul className="space-y-6">
                   <li className="flex justify-between items-center border-b border-outline-variant/30 pb-4">
                     <span className="font-headline-md text-headline-md text-on-surface">Beauty Salon</span>
-                    <span className="font-label-md text-label-md text-on-surface-variant">Custom</span>
                   </li>
                   <li className="flex justify-between items-center">
                     <span className="font-headline-md text-headline-md text-on-surface">Waxing Salon</span>
-                    <span className="font-label-md text-label-md text-on-surface-variant">From $15</span>
                   </li>
                 </ul>
                 <button className="mt-10 self-start border border-primary text-primary font-label-md text-label-md px-8 py-3 rounded-full hover:bg-primary-container/20 transition-colors duration-300">
