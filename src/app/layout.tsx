@@ -1,4 +1,4 @@
-import "~/styles/globals.css";
+import "../styles/globals.css";
 
 import { type Metadata } from "next";
 import { Bodoni_Moda, Plus_Jakarta_Sans } from "next/font/google";
@@ -27,6 +27,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${bodoniModa.variable} ${plusJakartaSans.variable}`}>
       <head>
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body className="bg-background text-on-background font-body-md text-body-md antialiased selection:bg-primary-container selection:text-on-primary-container">
         <Navbar />
